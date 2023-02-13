@@ -1,0 +1,3 @@
+private key sender = <4f7e52dc22e4251bc474a03bd3295440df29e2852bfb509471a4c3b84eaa6f9a>
+goerli api key = <4adff567c1b74855beac780489dad6c8>
+fuji c chain api key = <4adff567c1b74855beac780489dad6c8>
