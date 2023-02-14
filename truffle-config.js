@@ -123,17 +123,22 @@ module.exports = {
       provider: function () {
         return new HDWalletProvider({
           mnemonic: "sick alarm hint bounce wide rapid country double toddler erosion labor fatigue",
-          providerOrUrl: `https://data-seed-prebsc-1-s1.binance.org:8545`,
-          // providerOrUrl: 'https://data-seed-prebsc-2-s1.binance.org:8545',
+        
+          // providerOrUrl: `https://data-seed-prebsc-1-s1.binance.org:8545`,
+          providerOrUrl: 'https://data-seed-prebsc-2-s1.binance.org:8545',
           chainId: 97
         })
       },
       network_id: 97,
       confirmations: 2,
+      // networkCheckTimeout: 1000000,
       timeoutBlocks: 200,
       skipDryRun: true,
       chainId: 97
     },
+
+
+
 
 
     sepolia_testnet: {
@@ -157,7 +162,7 @@ module.exports = {
       provider: () => new HDWalletProvider({
         mnemonic: "sick alarm hint bounce wide rapid country double toddler erosion labor fatigue",
         // privateKeys:"4f7e52dc22e4251bc474a03bd3295440df29e2852bfb509471a4c3b84eaa6f9a",
-        providerOrUrl: 'https://data-seed-prebsc-2-s1.binance.org:8545',
+        providerOrUrl: 'https://avalanche-fuji.infura.io/v3/' + '4adff567c1b74855beac780489dad6c8',
       }),
       network_id: 43113,
       gas: 5500000,
@@ -166,6 +171,15 @@ module.exports = {
       timeoutBlocks: 200,
       skipDryRun: true
     }
+
+    // avalanche_testnet: {
+    //   provider: () => new HDWalletProvider(privateKeys, `https://api.avax-test.network/ext/bc/C/rpc`),
+    //   network_id: 43113,
+    //   gas: 5500000,
+    //   confirmations: 2,
+    //   timeoutBlocks: 200,
+    //   skipDryRun: true
+    // }
 
 
     // Useful for private networks

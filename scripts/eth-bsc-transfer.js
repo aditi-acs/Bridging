@@ -1,8 +1,10 @@
+// const { artifacts } = require('truffle');
 const BridgeEth = artifacts.require('./BridgeEth.sol');
 
 const privKey = '4f7e52dc22e4251bc474a03bd3295440df29e2852bfb509471a4c3b84eaa6f9a';
 
 module.exports = async done => {
+
   const nonce = 1; //Need to increment this for each new transfer
   const accounts = await web3.eth.getAccounts();
   const bridgeEth = await BridgeEth.deployed();

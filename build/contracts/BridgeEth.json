@@ -72,8 +72,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -158,8 +157,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -172,8 +170,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.1+commit.df193b15\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"date\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"nonce\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"signature\",\"type\":\"bytes\"},{\"indexed\":true,\"internalType\":\"enum BridgeBase.Step\",\"name\":\"step\",\"type\":\"uint8\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"admin\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nonce\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"signature\",\"type\":\"bytes\"}],\"name\":\"burn\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nonce\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"signature\",\"type\":\"bytes\"}],\"name\":\"mint\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"processedNonces\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"token\",\"outputs\":[{\"internalType\":\"contract IToken\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/BridgeEth.sol\":\"BridgeEth\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34\",\"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr\"]},\"project:/contracts/BridgeBase.sol\":{\"keccak256\":\"0xf6ee27b8efdb0ecae265b12eb568d2bc585f4bbc84ee633b6663a748492394de\",\"urls\":[\"bzz-raw://c604f2549e603a0bb8b29c9e7b5a0f74e42c88341447db4c3febc1dacfdc23cb\",\"dweb:/ipfs/QmbUSF5GFWFVrKHYSzK5RdNfGM6HmYU5JJNzdoUYpem2Fo\"]},\"project:/contracts/BridgeEth.sol\":{\"keccak256\":\"0x3b1c30bd557e367dc46bb1d12026ad2b1bf24a257dad33ba54f59aa1bf8062a7\",\"urls\":[\"bzz-raw://870a45ce66befe03a0b46002906c713bd433209ec36670d89c405149e2b06dfe\",\"dweb:/ipfs/QmP1JYF3cLWwFZfrmcfgM9T5M3pCUTZDr4zydJUQpmLsWX\"]},\"project:/contracts/IToken.sol\":{\"keccak256\":\"0xdbaff32d5b0e50fbf12abd07c0eba3d993b29b7cdbf011cb5469a5442e18f2a0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3d888ed16daed76774ab1ed0701f53d2740110393fde7f100c2fa4a150669994\",\"dweb:/ipfs/QmbNziSyWhbe9cKeq3XHjWu2embg9FERDe44HHTHsUbhDD\"]}},\"version\":1}",
@@ -7232,13 +7229,12 @@
     "11155111": {
       "events": {},
       "links": {},
-      "address": "0xBCE2d3A59322Eb4D7eC8BFfaED82E11Bf538272e",
-      "transactionHash": "0x907113f0f785bf38ec4399ffdd4d71a2eadce488d3e5c1255cdf871687f97c71"
+      "address": "0x91552E313E082B18D174A52C32Da726b4E41A921",
+      "transactionHash": "0xad2bf73145ef7dfee3c3408ed1d9ea67628b6f8b4daa31889fc7ce3a5a6df1e1"
     }
   },
   "schemaVersion": "3.4.11",
-  "updatedAt": "2023-02-13T08:00:13.573Z",
-  "networkType": "ethereum",
+  "updatedAt": "2023-02-14T11:25:51.803Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
